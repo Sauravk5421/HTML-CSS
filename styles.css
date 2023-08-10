@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+}
+
+.outer-element {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    padding: 10px;
+    gap: 10px;
+  
+}
+
+.squares {
+    background-color: green;
+}
+
+.circles {
+    background-color: blue;
+    border-radius: 50%;
+}
